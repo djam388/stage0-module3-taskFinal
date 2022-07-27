@@ -5,6 +5,6 @@ public class NumbersPrinter {
         printIsPositive(-1);
     }
     public static void printIsPositive(int number) {
-        System.out.println(number >= 0);
+        System.out.println(number > 0);
     }
 }
